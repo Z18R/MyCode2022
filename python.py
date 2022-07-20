@@ -259,9 +259,19 @@
 #         output += 'x'
 #     print(output)
 
-highest_number = [1,5,6,8,9,20,50,46,77,88,33]
-max = highest_number[0]
-for number in highest_number:
-    if number > max:
-        max = number
-print(max)
+# highest_number = [1,5,6,8,9,20,50,46,77,88,33]
+# max = highest_number[0]
+# for number in highest_number:
+#     if number > max:
+#         max = number
+# print(max)
+
+# def my_function():
+#     print("Hello from a function")
+# my_function()
+
+def my_function(fname):
+    print(fname + " Refsnes")
+my_function("Joe")
+my_function("Job")
+my_function("Jean")
