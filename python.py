@@ -287,3 +287,145 @@
 #         uniques.append(number)
 # print(uniques)
 
+# from statistics import median
+# arr1 = [201,205,208,2010]
+# arr2 = [5,6,7,8]
+# arr3 = arr1 + arr2
+# arr3.sort()
+# print(median(arr3))
+
+# arr1 = [201,205,208,2010]
+# arr2 = [5,6,7,8]
+# arr3 = (arr1 + arr2)
+# arr3.sort()
+# length_number = len(arr3)
+
+# if length_number % 2 == 0:
+#     median1 = arr3[length_number//2]
+#     median2 = arr3[length_number//2 - 1]
+#     median = (median1 + median2) / 2
+# else:
+#     median = arr3[length_number//2]
+# print("Median is: "+str(median))
+# A naive recursive implementation
+# of 0-1 Knapsack Problem
+
+# Returns the maximum value that
+# can be put in a knapsack of
+# capacity W
+
+#1234 then converts to words
+
+# Phone = input("Phone: ")
+# digits_mapping= {
+#     "1":"One",
+#     "2":"Two",
+#     "3":"Three",
+#     "4":"Four"
+# }
+# output = ""
+# for ch in Phone:
+#     output += digits_mapping.get(ch)
+# print(output)
+
+# from statistics import median
+
+
+# name = "joe"
+# age = 20
+# number = 1.2
+# email = "Joezer@yaho.com"
+# max  = input()
+# if max == 0:
+#     print("?")
+# else:
+#     print("nevermind")
+
+# arr1 = [1,2,3,4]
+# arr2 = [5,6,7,8]
+# arr3 = arr1+arr2
+# arr3.sort()
+# print(median(arr3))
+
+# arr1 = [1,2,3,4]
+# arr2 = [5,6,7,8]
+# arr3 = arr1+arr2
+# arr3.sort()
+# length_number = len(arr3)
+# if length_number % 2 == 0:
+#     median1 = arr3[length_number//2]
+#     median2 = arr3[length_number//2 - 1]
+#     median = (median1 + median2)/2
+# else:
+#     median = arr3[length_number//2]
+# print(str(median))
+
+# for number in range(3):
+#     print("Attempt", number)
+
+# count = 0
+# for number in range (1, 10):
+#     if number % 2 == 0:
+#         count +=  1
+#         print(number)
+# print(f"count: {count}")
+
+#Function
+
+# def greet_user(first_name , lastname):
+#     print(f"Hi {first_name} {lastname}")
+# greet_user(lastname="cardoza" ,first_name="Joe")
+
+# def square(number):
+#     return number * number
+# print(square(3))
+
+# def emojis_converter(message):
+#     words = message.split(" ")
+#     emojis = {
+#         ":)": "😊",
+#         ":(": "😥"
+#     }
+#     output =""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+# message = input(">")
+# print(emojis_converter(message))
+
+#try and except
+
+# try:
+#     age = int(input("Age: "))
+#     income = 20000
+#     risk = income / age
+#     print(age)
+# except ZeroDivisionError:
+#     print('Age cannot be 0.')
+# except ValueError:
+#     print('Invalid value')
+
+# def square(number):
+#     return number + number
+# print(square(5))
+
+#Class
+
+# class point:
+#     def move(self):
+#         print("move")
+#     def draw(self):
+#         print("draw")
+# point_dec = point()
+# point_dec.move()
+
+#Constructors
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self):
+#         print(f"Hi, Im {self.name}")
+         
+# Joe = Person("Joe zer")
+# Joe.talk()
