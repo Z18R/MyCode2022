@@ -571,3 +571,19 @@
 #             print("Scissors cuts paper! You win!")
 #         else:
 #             print("Rock smashes scissors! You lose.")
+
+
+# arr = [8,102,20,40,70,75]
+# arr.sort()
+# length = len(arr)
+
+# if length % 2 == 0:
+#     median1 = arr[length//2]
+#     median2 = arr[length//2 - 1]
+#     median = (median1 + median2) / 2
+# else:
+#     median = arr[length//2]
+# print(median)
+
+string_chars = "hello World"
+number = 2

@@ -1,1 +1,1 @@
-user_action = input("Enter your choice(rock,paper,scissors): ")
+type(median1)
