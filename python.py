@@ -585,5 +585,18 @@
 #     median = arr[length//2]
 # print(median)
 
-string_chars = "hello World"
-number = 2
+# string_chars = "hello World"
+# number = 2
+
+# find the median
+arr = [8,2,1,4,5,6,8,4]
+arr.sort()
+length = len(arr)
+if length % 2 == 0:
+    median1 = arr[length//2]
+    median2 = arr[length//2 - 1]
+    median = (median1 + median2) / 2
+else:
+    median = arr[length//2]
+print(median)
+
