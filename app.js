@@ -39,3 +39,8 @@
 // }
 // // let number = square(2);
 // console.log(square(2));
+
+var data = [
+    id: '1',
+    value:100
+]

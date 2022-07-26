@@ -589,14 +589,31 @@
 # number = 2
 
 # find the median
-arr = [8,2,1,4,5,6,8,4]
-arr.sort()
-length = len(arr)
-if length % 2 == 0:
-    median1 = arr[length//2]
-    median2 = arr[length//2 - 1]
-    median = (median1 + median2) / 2
-else:
-    median = arr[length//2]
-print(median)
+# arr = [8,2,1,4,5,6,8,4]
+# arr.sort()
+# length = len(arr)
+# if length % 2 == 0:
+#     median1 = arr[length//2]
+#     median2 = arr[length//2 - 1]
+#     median = (median1 + median2) / 2
+# else:
+#     median = arr[length//2]
+# print(median)
 
+List subd = subDirectories(current_dir);
+List files = filesInDirectories(current_dir);
+
+foreach (file in files) {
+    print file.name();
+}
+
+while (!subd.empty()) {
+    dir = subd.pop();
+
+    files = filesInDirectory(dir.name());
+
+    foreach (file in files) {
+        print file.name();
+    }
+
+    subd.append(subDirectories(dir.path()));
