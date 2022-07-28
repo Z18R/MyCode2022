@@ -600,20 +600,39 @@
 #     median = arr[length//2]
 # print(median)
 
-List subd = subDirectories(current_dir);
-List files = filesInDirectories(current_dir);
+# List subd = subDirectories(current_dir);
+# List files = filesInDirectories(current_dir);
 
-foreach (file in files) {
-    print file.name();
-}
+# foreach (file in files) {
+#     print file.name();
+# }
 
-while (!subd.empty()) {
-    dir = subd.pop();
+# while (!subd.empty()) {
+#     dir = subd.pop();
 
-    files = filesInDirectory(dir.name());
+#     files = filesInDirectory(dir.name());
 
-    foreach (file in files) {
-        print file.name();
-    }
+#     foreach (file in files) {
+#         print file.name();
+#     }
 
-    subd.append(subDirectories(dir.path()));
+#     subd.append(subDirectories(dir.path()));
+
+# changing value of two integers
+# x = 10
+# y = 20
+
+# x = x-y
+# y = x+y
+# x = y-x
+
+# print(x)
+# print(y)
+
+# x = 10
+# y = 20
+# z = 30
+# x = (1+y)+z
+# print(x)
+# print(y)
+# print(z)
