@@ -588,17 +588,7 @@
 # string_chars = "hello World"
 # number = 2
 
-# find the median
-# arr = [8,2,1,4,5,6,8,4]
-# arr.sort()
-# length = len(arr)
-# if length % 2 == 0:
-#     median1 = arr[length//2]
-#     median2 = arr[length//2 - 1]
-#     median = (median1 + median2) / 2
-# else:
-#     median = arr[length//2]
-# print(median)
+
 
 # List subd = subDirectories(current_dir);
 # List files = filesInDirectories(current_dir);
@@ -636,3 +626,25 @@
 # print(x)
 # print(y)
 # print(z)
+
+
+# >>> import os
+# >>> os.listdir('.')
+# ['DLLs', 'Doc', 'etc', 'include', 'Lib', 'libs', 'LICENSE.txt', 'NEWS.txt', 'python.exe', 'pythonw.exe', 'README.txt', 'Scripts', 'share', 'tcl', 'Tools', 'w9xpopen.exe']
+
+
+arr = [3,4,2,5,7,2,6,8,2,4]
+arr2 = [1,2,3,5,2,2,1,1,3,4,5,1]
+arr3 = arr + arr2
+arr3.sort()
+length = len(arr3)
+# print(median(arr3))
+
+if (length % 2 == 0):
+    median1 = arr3[length//2]
+    median2 = arr3[length//2  - 1]
+    median = (median1 + median2) / 2
+else:
+    median = arr3[length//2]
+print(median)
+    

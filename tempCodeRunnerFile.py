@@ -1,1 +1,1 @@
-type(median1)
+ols', 'w9xpopen.exe']
